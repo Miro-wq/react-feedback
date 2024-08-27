@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../Styles/Statistics.module.css';
+import styles from './Statistics.module.css';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return (
-    <div>
+    <div className={styles.statisticsContainer}>
       <p>Good: {good}</p>
       <p>Neutral: {neutral}</p>
       <p>Bad: {bad}</p>
