@@ -54,6 +54,6 @@ Move the statistics display into a separate component `<Statistics good={} neutr
 Move the button block into the `<FeedbackOptions options={} onLeaveFeedback={}>` component.  
 Create the `<Section title="">` component, which will render a section with a title and children. Add the `<Statistics>` and `<FeedbackOptions>` components to this new component.
 
-**Step 4**
+![Step 4](https://img.shields.io/badge/Step%204-purple?style=for-the-badge)
 
 Extend the application’s functionality so that the statistics block is only rendered after at least one piece of feedback has been collected. Move the message about the absence of statistics into the `<Notification message="There is no feedback">` component.
